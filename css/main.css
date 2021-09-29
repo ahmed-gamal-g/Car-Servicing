@@ -1,0 +1,376 @@
+body {
+    background-color: black;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.navbar-light .navbar-toggler {
+
+    background-color: rgb(0, 174, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-left: 10px;
+    font-family: emoji;
+    transition: all 0.7s;
+    
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 162, 255) !important;
+    transform: scale(1.1 , 1.1);
+}
+
+.ml-auto, .mx-auto {
+    margin: auto!important;
+}
+
+/* end navbar */
+
+
+.cont1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/2085166.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: center left; */
+}
+
+.cont2 {
+    color: white;
+    font-size: 17px;
+    margin-top: 70px;
+
+
+}
+
+.myh2-cont2 {
+    color: rgb(0, 204, 255);
+}
+
+.myp-cont2 {
+    margin-bottom: 50px;
+}
+
+.khat1 {
+    width: 330px;
+    height: 2px;
+    background-color: brown;
+    margin-bottom: 5px;
+}
+
+
+.khat2 {
+    width: 250px;
+    height: 2px;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+
+span {
+    color: brown;
+}
+
+span:hover {
+    color:rgb(0, 204, 255) ;
+    cursor: pointer;
+}
+
+.img1 {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+
+.img2 {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+
+.img3 {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+
+.img4 {
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+img:hover {
+    box-shadow: 5px 5px brown, 10px 10px brown, 15px 15px brown;
+    transform: scale(0.9  , 0.9);
+    opacity: 0.7;
+    /* transform: scale(1.1,1.1);
+    box-shadow: 7px 7px 3px #e2e2e2fb;
+    transition: all 2s; */
+}
+
+@media(max-width:720px) {
+    .img1 {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    
+    .img2 {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    
+    .img3 {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    
+    .img4 {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+}
+
+footer {
+    background: linear-gradient( black 40%  ,rgba(247, 2, 255, 0.404)) ;
+    width: 100%;
+    height: 200px;
+    /* margin-top: 50px; */
+    padding-top: 70px;
+    position: relative;
+}
+
+.myp-footer {
+    color: mediumvioletred;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+.footer2 {
+    color: wheat;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.footer2:hover {
+    color: rgba(230, 139, 196, 0.651);
+    text-decoration: none;
+    
+}
+
+
+.icon {
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: -60px;
+    
+}
+
+@media(max-width:720px){
+
+    .icon {
+        margin-left: 20px;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        
+    }
+
+
+    footer {
+        background: linear-gradient( black 40%  ,rgba(247, 2, 255, 0.404)) ;
+        width: 100%;
+        height: 300px;
+        /* margin-top: 50px; */
+        padding-top: 70px;
+        position: relative;
+    }
+}
+
+
+@keyframes face {
+
+    0%{
+        transform: rotatey(180deg);
+    }
+
+    50% {
+        transform: rotatey(360deg);
+    }
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+
+@keyframes insta {
+
+    0%{
+        transform: rotatey(180deg);
+    }
+
+    50% {
+        transform: rotatey(360deg);
+    }
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+
+@keyframes twitter {
+
+    0%{
+        transform: rotatey(180deg);
+    }
+
+    50% {
+        transform: rotatey(900deg);
+    }
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+
+@keyframes youtube {
+
+    0%{
+        transform: rotatey(180deg);
+    }
+
+    50% {
+        transform: rotatey(360deg);
+    }
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+
+@keyframes github {
+
+    0%{
+        transform: rotatey(180deg);
+    }
+
+    50% {
+        transform: rotatey(360deg);
+    }
+    100% {
+        transform: rotatey(180deg);
+    }
+}
+
+
+.icon-icon1 , .icon-icon2 , .icon-icon3 , .icon-icon4 , .icon-icon5  {
+    font-size: 25px;
+    
+
+}
+
+
+
+
+
+
+.icon-icon1 {
+    /* transform: rotatey(180deg); */
+    animation-name: face;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.icon-icon2 {
+    /* transform: rotatey(180deg); */
+    animation-name: insta;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.icon-icon3 {
+    /* transform: rotatey(180deg); */
+    animation-name: twitter;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.icon-icon4 {
+    /* transform: rotatey(180deg); */
+    animation-name: youtube;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.icon-icon5 {
+    /* transform: rotatey(180deg); */
+    animation-name: github;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.icon-icon1:hover {
+    transition: 1s;
+    animation: none;
+}
+
+.icon-icon2:hover {
+    transition: 1s;
+    animation: none;
+}
+
+.icon-icon3:hover {
+    transition: 1s;
+    animation: none;
+}
+
+.icon-icon4:hover {
+    transition: 1s;
+    animation: none;
+}
+
+.icon-icon5:hover {
+    transition: 1s;
+    animation: none;
+}
+
+i {
+    font-size: 40px;
+    color: rgb(0 , 160 , 209);
+    padding: 15px;
+    transition: all 0.5s;
+}
