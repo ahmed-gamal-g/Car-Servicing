@@ -7,6 +7,7 @@ html{
 body {
     font-family: 'PT Serif', serif;
     background-color: black;
+    overflow-x: hidden;
 }
 
 nav {
